@@ -19,7 +19,7 @@ f.write(getHtml(url))
 f.close()
 '''
 def getImg(htmlpage,n):
-    reg = r'src="(http://wvw.uuyishu.com:99/d/file/shenying/2010-12-12/.*?\.jpg)" '
+    reg = r'src="(url)" '
     imgre = re.compile(reg)
     imglist = re.findall(imgre,htmlpage)
     x = 0
