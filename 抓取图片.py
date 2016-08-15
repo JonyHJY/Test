@@ -29,6 +29,6 @@ def getImg(htmlpage,n):
         x += 1
 		 
 for n in range(10,16):
-    url = "http://wvw.uuyishu.com:99/shenying/20101212/6476_%d.html"%n
+    url = "url"%n
     htmlpage = getHtml(url)
     getImg(htmlpage,n)
